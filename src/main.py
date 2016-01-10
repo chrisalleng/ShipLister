@@ -78,7 +78,7 @@ def main():
     rebel_ships = []
     empire_ships = []
     scum_ships = []
-    with open(args.file, newline='\r\n') as csvfile:
+    with open(args.file, newline='\n') as csvfile:
         lists = csv.reader(csvfile, delimiter=',')
         for row in lists:
             if (row[7] != "None") & (row[7] != "elim_standing"):
