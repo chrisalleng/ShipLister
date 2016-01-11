@@ -40,7 +40,6 @@ def fix_advanced_cost(ship):
     return adjust
 
 
-
 def fix_crew_cost(ship):
     adjust_cost = 0
     upgrades = ship[3:]
