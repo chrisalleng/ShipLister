@@ -318,7 +318,7 @@ class Costs:
     card_list["Prince Xizor"] = 31
     card_list["Ten Numb"] = 31
     card_list["Eaden Vrill"] = 32
-    card_list["Etahn A'baht"] = 32
+    card_list["Etahn A'Baht"] = 32
     card_list["Onyx Squadron Pilot"] = 32
     card_list["Whisper"] = 32
     card_list["Bounty Hunter"] = 33
@@ -401,7 +401,7 @@ class Costs:
     card_list["Mist Hunter"] = 0
     card_list["Phantom"] = 0
     card_list["Royal Guard TIE"] = 0
-    card_list["Slave I"] = 0
+    card_list["Slave 1"] = 0
     card_list["TIE/D"] = 0
     card_list["TIE Shuttle"] = 0
     card_list["TIE/x1"] = 0

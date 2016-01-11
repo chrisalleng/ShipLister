@@ -21,23 +21,24 @@ def get_ship_cost(ship):
 
 
 def fix_advanced_cost(ship):
+    adjust = 0
     if 'TIE Advanced' in ship:
         if 'Enhanced Scopes' in ship:
-            return -1
+            adjust = -1
         elif 'Fire-Control System' in ship:
-            return -2
+            adjust= -2
         elif 'Accuracy Corrector' in ship:
-            return -3
+            adjust = -3
         elif 'Advanced Sensors' in ship:
-            return -3
+            adjust = -3
         elif 'Reinforced Deflectors' in ship:
-            return -3
+            adjust = -3
         elif 'Sensor Jammer' in ship:
-            return -4
+            adjust = -4
         elif 'Advanced Targeting Computer' in ship:
-            return -4
-    else:
-        return 0
+            adjust = -4
+    return adjust
+
 
 
 def fix_crew_cost(ship):
