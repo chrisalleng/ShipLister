@@ -28,7 +28,7 @@ class Costs:
     card_list["Flechette Cannon"] = 2
     card_list["Ion Cannon"] = 3
     card_list["Mangler Cannon"] = 4
-    card_list["Autoblaster"] = 5
+    card_list["AutoBlaster"] = 5
     card_list["Heavy Laser Cannon"] = 7
 
     card_list["Docking Clamps"] = 0
@@ -117,6 +117,7 @@ class Costs:
     card_list["Lone Wolf"] = 2
     card_list["Squad Leader"] = 2
     card_list["Stay On Target"] = 2
+    card_list["Stay on Target"] = 2
     card_list["Swarm Tactics"] = 2
     card_list["Wingman"] = 2
     card_list["Daredevil"] = 3
@@ -136,6 +137,7 @@ class Costs:
     card_list["Inertial Dampeners"] = 1
     card_list["Cloaking Device"] = 2
     card_list["Dead Man's Switch"] = 2
+    card_list["Dead Mans Switch"] = 2
     card_list["Feedback Array"] = 2
     card_list["Glitterstim"] = 2
     card_list["Hot Shot Blaster"] = 3
@@ -143,6 +145,7 @@ class Costs:
     card_list["Chardaan Refit"] = -2
     card_list["XX-23 S-Thread Tracers"] = 1
     card_list["Advanced Homing Missiles"] = 3
+    card_list["Adv. Homing Missiles"] = 3
     card_list["Ion Pulse Missiles"] = 3
     card_list["Proton Rockets"] = 3
     card_list["Cluster Missiles"] = 4
@@ -154,6 +157,8 @@ class Costs:
     card_list["Integrated Astromech"] = 0
     card_list["Long-Range Scanners"] = 0
     card_list["B-Wing/E2"] = 1
+    card_list["b-wing/E2"] = 1
+    card_list["bwing/E2"] = 1
     card_list["Maneuvering Fins"] = 1
     card_list["Munitions Failsafe"] = 1
     card_list["Tactical Jammer"] = 1
@@ -187,7 +192,7 @@ class Costs:
     card_list["Chaser"] = 14
     card_list["Wampa"] = 14
     card_list["Epsilon Squadron Pilot"] = 15
-    card_list["Kaa'To Leeachos"] = 15
+    card_list["KaaTo Leeachos"] = 15
     card_list["Night Beast"] = 15
     card_list["Winged Gundark"] = 15
     card_list["Youngster"] = 15
@@ -199,9 +204,9 @@ class Costs:
     card_list["Spice Runner"] = 16
     card_list["Zeta Squadron Pilot"] = 16
     card_list["Epsilon Ace"] = 17
-    card_list["Lieutenant Blount"] = 17
+    card_list["Lt. Blount"] = 17
     card_list["Mauler Mithel"] = 17
-    card_list["N'Dru Suhlak"] = 17
+    card_list["NDru Suhlak"] = 17
     card_list["Omega Squadron Pilot"] = 17
     card_list["Prototype Pilot"] = 17
     card_list["Scourge"] = 17
@@ -210,7 +215,7 @@ class Costs:
     card_list["Gamma Squadron Pilot"] = 18
     card_list["Gold Squadron Pilot"] = 18
     card_list["Howlrunner"] = 18
-    card_list["Laetin A'shera"] = 18
+    card_list["Laetin Ashera"] = 18
     card_list["Syndicate Thug"] = 18
     card_list["Zeb Orrelios"] = 18
     card_list["Zeta Ace"] = 18
@@ -435,6 +440,7 @@ class Costs:
     card_list["Flechette Torpedoes"] = 2
     card_list["Plasma Torpedoes"] = 3
     card_list["Proton Torpedoes"] = 4
+    card_list["Advanced Proton Torpedoes"] = 6
     card_list["Ion Torpedoes"] = 5
 
     card_list["Autoblaster Turret"] = 2

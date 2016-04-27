@@ -43,7 +43,7 @@ def fix_advanced_cost(ship):
 def fix_crew_cost(ship):
     adjust_cost = 0
     upgrades = ship[3:]
-    if 'Chewbecca' in upgrades:
+    if 'Chewbacca' in upgrades:
         adjust_cost -= 38
     if 'Luke Skywalker' in upgrades:
         adjust_cost -= 21
@@ -61,6 +61,8 @@ def fix_crew_cost(ship):
         adjust_cost -= 34
     if 'Leebo' in upgrades:
         adjust_cost -= 32
+    if 'Bossk' in upgrades:
+        adjust_cost -= 33
     return adjust_cost
 
 
